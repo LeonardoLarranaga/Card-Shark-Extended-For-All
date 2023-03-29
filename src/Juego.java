@@ -111,7 +111,7 @@ public class Juego {
 		ArrayList<Integer> ganadores = new ArrayList<Integer>();
 				
 		for (int i = 0; i < jugadores.size(); i++) {
-			if (jugadores.get(i).getPuntaje() == puntajeGanador) {
+			if (jugadores.get(i).getPuntaje() == jugadores.get(puntajeGanador).getPuntaje()) {
 				ganadores.add(i);
 			}
 		}
