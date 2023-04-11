@@ -83,7 +83,6 @@ public class Extended {
 			limpiarPantalla();
 		}
 		
-		
 		System.out.println("RESULTADOS:\n");
 		
 		for (int i = 0; i < cantidadJugadores; i++) {
